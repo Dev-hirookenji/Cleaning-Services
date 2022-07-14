@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="forms-styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Hire Us</title>
+  </head>
+  <body>
+    <!-- Remove ko muna ayaw umayos-->
+    <div class="nav-holder">
+      <nav>
+        <a class="main-icon" href="./index.html"
+          ><img class="logo" src="./images/logo.png" alt="logo"
+        /></a>
+        <div class="navbar">
+          <ul>
+            <li><a class="navv" href="./index.html">Home</a></li>
+            <li><a class="navv" href="About.html">About</a></li>
+            <li><a class="navv" href="contact.html">Contact Us</a></li>
+            <li><a class="navv" href="forms.html">Hire</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container">
+      <div class="title">Registration</div>
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">First Name</span>
+            <input type="text" placeholder="Enter your First Name" required />
+          </div>
+          <div class="input-box">
+            <span class="details">Last Name</span>
+            <input type="text" placeholder="Enter your Last Name" required />
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter your email" required />
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" placeholder="Enter your Phone Number" required />
+          </div>
+          <div class="input-box" style="width: 700px">
+            <span class="details">Complete Address / Condo details</span>
+            <input type="text" placeholder="Enter your details" required />
+          </div>
+        </div>
+        <div class="services-details">
+          <input type="radio" name="service" id="dot-1" />
+          <input type="radio" name="service" id="dot-2" />
+          <input type="radio" name="service" id="dot-3" />
+          <input type="radio" name="service" id="dot-4" />
+          <input type="radio" name="service" id="dot-5" />
+          <input type="radio" name="service" id="dot-6" />
+          <span class="services-title">Services</span>
+          <div class="category">
+            <label for="dot-1">
+              <span class="dot one"></span>
+              <span class="service">Deep Home Cleaning</span>
+            </label>
+            <label for="dot-2">
+              <span class="dot two"></span>
+              <span class="service">Disinfection</span>
+            </label>
+            <label for="dot-3">
+              <span class="dot three"></span>
+              <span class="service">Steam Cleaning</span>
+            </label>
+            <label for="dot-4">
+              <span class="dot four"></span>
+              <span class="service">Post-Construction Cleaning</span>
+            </label>
+            <label for="dot-5">
+              <span class="dot five"></span>
+              <span class="service">Condo Cleaning</span>
+            </label>
+            <label for="dot-6">
+              <span class="dot six"></span>
+              <span class="service">Car Cleaning</span>
+            </label>
+          </div>
+        </div>
+        <div class="button">
+          <input type="Submit" value="Register" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,221 @@
+<html>
+  <title>About Us</title>
+  <head>
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="index-styles.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
+        rel="stylesheet"
+      />
+      <title>Document</title>
+    </head>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      :root {
+        --primary-font: "Poppins", sans-serif;
+        --primary-color: #ffefdd;
+        --secondary-color: #242424;
+        --purple-color: #36469f;
+      }
+      .main-icon:hover {
+        filter: drop-shadow(0px 0px 7px #36469f);
+      }
+      .logo {
+        margin-top: -5px;
+        margin-left: 25px;
+        width: 110px;
+        height: 110px;
+      }
+      nav {
+        position: absolute;
+        display: flex;
+        height: 50px;
+        width: 100vw;
+        padding: 20px 50px;
+      }
+      .navbar ul li {
+        padding-left: 12px;
+        display: inline-block;
+        margin: 10px 10px;
+        color: #242424;
+      }
+      .navbar {
+        padding-left: 80px;
+      }
+      a {
+        font-family: var(--primary-font);
+        font-weight: 500;
+        color: var(--secondary-color);
+        text-decoration: none;
+        font-weight: 500;
+      }
+      a:hover {
+        color: rgba(253, 253, 253, 0);
+        text-shadow: 5px 5px var(--secondary-color);
+        transition: 0.3s;
+      }
+      .header {
+        padding: 0px 40px 0px 40px;
+      }
+      .header p h1 {
+        color: var(--purple-color);
+      }
+      .content-left {
+        font-family: var(--primary-font);
+      }
+      .content-left h1 {
+        margin-left: 6rem;
+        margin-bottom: 1rem;
+        color: var(--purple-color);
+      }
+      .content-left p {
+        color: #242424;
+      }
+      .content-right {
+        margin-right: 100px;
+      }
+      .main-container {
+        position: absolute;
+        padding-top: 20px;
+        margin-top: 30rem;
+        margin-left: 1.5rem;
+        padding-left: 200px;
+      }
+      .main-container h1 {
+        font-family: var(--primary-font);
+        font-weight: 400;
+        color: var(--purple-color);
+      }
+      .main-container p {
+        font-family: var(--primary-font);
+        font-weight: 400;
+        margin-left: -6rem;
+        color: #242424;
+      }
+      .container {
+        max-width: 80%;
+        padding: 10px 0px 0px 0px;
+      }
+      .content {
+        display: grid;
+        margin: 20px 0px;
+        grid-template-columns: auto auto;
+        gap: 20px;
+        align-items: center;
+        transition: 1s;
+      }
+      .img {
+        width: 500px;
+        height: 400px;
+        padding: 0;
+        box-shadow: 1px 1px 3px black;
+      }
+
+      p {
+        font-family: var(--primary-font);
+        padding-left: 6rem;
+        color: black;
+        font-weight: 400;
+        font-size: 15px;
+      }
+      .box {
+        transition: 1s;
+      }
+
+      .box:hover {
+        transform: scale(1.1);
+      }
+      .content-image {
+        margin-top: 10rem;
+        width: 20rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <!--NAVIGATION-->
+      <a class="main-icon" href="./index.html"
+        ><img class="logo" src="./images/logo.png" alt="logo"
+      /></a>
+      <div class="navbar">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="forms.html">Hire</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!--Container-->
+    <div class="header">
+      <div class="content-left">
+        <h1>We are the Squeaky Clean Cleaning Services!</h1>
+        <p>
+          We are dubbed as one of the best and safest cleaning services in the
+          metro, we ensure healthy and non-toxic cleaning materials and and
+          chemicals we are using are based from natural components to prevent
+          allergic reaction, we offer our services for newly built houses,
+          condominiums and apartments.
+        </p>
+      </div>
+      <div class="content-right">
+        <img class="content-image" src="./images/clean-team.webp" />
+      </div>
+    </div>
+    <div class="main-container">
+      <h1>Services we offer</h1>
+      <p>
+        We offer top quality services in the market with the most advanced and
+        safe cleaning materials for your home
+      </p>
+      <div class="container">
+        <div class="content">
+          <div class="box">
+            <img class="img" src="./pic1.jpg" />
+          </div>
+          <p>
+            TITLE aspires to create a place where anybody could live comfortably
+            and avoid having the trouble of having any forms of sickness that
+            they might get from an unsanitized residence.
+          </p>
+        </div>
+
+        <div class="content">
+          <p>
+            TITLE is a social enterprise which goals is to help those who need
+            cleaning and are unable to do so and keep this world one house
+            cleaner at a time.
+          </p>
+          <div class="box">
+            <img class="img" src="./pic2.jpg" />
+          </div>
+        </div>
+        <div class="content">
+          <div class="box">
+            <img class="img" src="./pic3.jpg" />
+          </div>
+          <p>
+            Due to the COVID-19 pandemic we learned that one of the best weapons
+            in fighting a disease or virus is by keeping everything around us
+            clean and sanitized. The problem with this is that no everybody has
+            the capability to clean their entire house with just them alone
+            especially the elderly and disabled people. This is where we come
+            in, our services can help anybody in need to clean their house with
+            a bunch more services to offer.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
